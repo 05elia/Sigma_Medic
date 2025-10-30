@@ -18,10 +18,14 @@
           <button class="bg-[#A5C79B] text-white px-5 py-2 rounded hover:bg-[#8EBB82] transition">
             Selengkapnya
           </button>
-          <button
-            class="border border-[#A5C79B] text-[#5B8A62] px-5 py-2 rounded hover:bg-[#A5C79B]/10 transition"
-          >
-            Kontak
+          <button>
+            <router-link
+  to="/kontak"
+  class="border border-[#A5C79B] text-[#5B8A62] px-5 py-2 rounded hover:bg-[#A5C79B]/10 transition text-center"
+>
+  Kontak
+</router-link>
+
           </button>
         </div>
       </div>
