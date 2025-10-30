@@ -1,7 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue'
 import Navbar from '@/components/Navbar.vue'
-import Footer from '@/components/Footer.vue'
 
 const name = ref('')
 const email = ref('')
@@ -24,11 +23,11 @@ const isFormValid = computed(() => {
     <Navbar />
 
     <!-- Main content -->
-    <main class="flex flex-1 bg-white min-h-screen overflow-hidden">
+    <main class="flex flex-1 bg-white min-h-screen overflow-hidden pt-14 pl-35">
       <!-- Left form section -->
       <div class="w-full md:w-[55%] flex flex-col justify-center px-24">
         <div class="max-w-md">
-          <h1 class="text-5xl font-bold mb-8 text-black">Selamat Datang</h1>
+          <h1 class="text-5xl font-bold mb-5 text-black">Selamat Datang</h1>
 
           <form class="w-full space-y-4" @submit.prevent="() => {}">
             <div>
@@ -36,7 +35,7 @@ const isFormValid = computed(() => {
               <input
                 v-model="name"
                 type="text"
-                placeholder="your name"
+                placeholder="Name.."
                 class="w-full border rounded-md px-3 py-2 focus:ring-2 focus:ring-green-500"
               />
             </div>
@@ -46,7 +45,7 @@ const isFormValid = computed(() => {
               <input
                 v-model="email"
                 type="email"
-                placeholder="your email"
+                placeholder="Email.."
                 class="w-full border rounded-md px-3 py-2 focus:ring-2 focus:ring-green-500"
               />
             </div>
@@ -56,7 +55,7 @@ const isFormValid = computed(() => {
               <input
                 v-model="password"
                 type="password"
-                placeholder="password"
+                placeholder="Password.."
                 class="w-full border rounded-md px-3 py-2 focus:ring-2 focus:ring-green-500"
               />
             </div>
@@ -95,7 +94,7 @@ const isFormValid = computed(() => {
               <button
                 class="flex items-center gap-2 border rounded-md px-3 py-2 text-sm hover:bg-gray-50"
               >
-                <img src="https://www.svgrepo.com/show/349494/apple.svg" class="w-4 h-4" />
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/apple.svg" class="w-4 h-4" />
                 Sign in with Apple
               </button>
             </div>
@@ -112,7 +111,6 @@ const isFormValid = computed(() => {
       <div class="hidden md:block md:w-[45%] bg-[#69BD79] rounded-l-[3rem] h-screen"></div>
     </main>
 
-    <!-- ✅ Footer Reusable -->
-    <Footer />
+
   </div>
 </template>
