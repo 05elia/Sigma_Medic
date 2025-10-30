@@ -2,40 +2,9 @@
   <div class="flex flex-col min-h-screen bg-[#F7FAF8]">
     <Navbar />
 
-    <!-- ✅ Hero Section -->
-    <section class="bg-[#E7F4E4] py-22 px-6 md:px-20 flex flex-col md:flex-row items-center gap-10">
-      <div class="flex-1">
-        <h1 class="text-4xl md:text-5xl font-semibold text-gray-800 mb-4 leading-tight">
-          Solusi medis terdepan untuk kebutuhan kesehatan anda
-        </h1>
-        <p class="text-gray-600 mb-6">
-          Sigma Medic menyediakan peralatan medis berkualitas tinggi untuk profesional kesehatan.
-          Kami berkomitmen memberikan teknologi terbaik yang mendukung diagnosis dan perawatan
-          pasien.
-        </p>
-        <div class="flex gap-3">
-          <button class="bg-[#A5C79B] text-white px-5 py-2 rounded hover:bg-[#8EBB82] transition">
-            Selengkapnya
-          </button>
-          <button
-            class="border border-[#A5C79B] text-[#5B8A62] px-5 py-2 rounded hover:bg-[#A5C79B]/10 transition"
-          >
-            Kontak
-          </button>
-        </div>
-      </div>
-
-      <div class="flex-1">
-        <img
-          src="@/assets/image-page-produk.jpg"
-          alt="Peralatan Medis"
-          class="rounded-2xl w-full object-cover shadow-md"
-        />
-      </div>
-    </section>
 
     <!-- 🩺 Section Kontak -->
-    <section class="px-8 md:px-16 lg:px-24 py-20 bg-[#E7F2E5] rounded-b-[3rem]">
+    <section class="px-8 md:px-16 lg:px-24 pt-25 py-20 bg-[#E7F2E5] rounded-b-[3rem]">
       <!-- Judul -->
       <div class="text-center mb-12">
         <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Hubungi Kami</h1>
